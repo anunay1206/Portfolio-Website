@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anunay Sharma</title>
+  <meta name="description" content="Anunay Sharma — M.Tech Computer Science at IIT Delhi. Machine learning, computer vision and competitive programming." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%234f46e5'/><text x='50%' y='54%' font-family='Arial' font-weight='700' font-size='34' fill='white' text-anchor='middle' dominant-baseline='middle'>A</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (!t) t = "dark";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+</head>
+<body>
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top"><span class="logo">A</span>Anunay Sharma</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#coding">Coding</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="https://drive.google.com/file/d/1vStSmagrxq0nKR9PZLochvoqY8Ws814J/view?usp=drive_link" target="_blank" rel="noopener">Resume</a>
+        <a class="nav-btn" href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch light or dark mode" title="Light / dark mode">
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+          <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- INTRO -->
+  <section class="hero" id="top">
+    <div class="container intro">
+      <div class="photo">
+        <img src="photo.jpg" alt="Anunay Sharma" width="800" height="1000"
+             onerror="this.parentElement.classList.add('no-photo')" />
+        <span class="initials" aria-hidden="true">AS</span>
+      </div>
+      <div class="intro-text">
+        <span class="pill"><span class="dot"></span>LeetCode Knight · Top 3.4% worldwide</span>
+        <h1>Hi, I'm <span class="grad">Anunay Sharma</span></h1>
+        <p class="role">Competitive Programmer · M.Tech CS @ IIT Delhi</p>
+        <p class="summary">
+          I love solving problems and building software. I'm a LeetCode Knight in the top 3.4% worldwide with
+          1,680+ problems solved, and I enjoy turning ideas into working apps with C++, Python and modern tools.
+        </p>
+        <div class="buttons">
+          <a class="btn btn-primary" href="#contact">Contact me</a>
+          <a class="btn" href="https://drive.google.com/file/d/1vStSmagrxq0nKR9PZLochvoqY8Ws814J/view?usp=drive_link" target="_blank" rel="noopener"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5zM14 3v5h5M9 13h6M9 17h6"/></svg>Resume</a>
+          <a class="btn" href="#projects">View projects</a>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/anunay-sharma-627849223/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a>
+            <a href="https://github.com/anunay1206" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.7 1.6.2 2.8.1 3.2.8.8 1.3 1.9 1.3 3.1 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg></a>
+            <a href="https://leetcode.com/u/anunaysharma12/" target="_blank" rel="noopener" aria-label="LeetCode" title="LeetCode"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M13.48 0a1.37 1.37 0 0 0-.96.44L2.12 11.58a5.1 5.1 0 0 0-1.22 2.06 5.5 5.5 0 0 0 .07 3.03 5.3 5.3 0 0 0 1.27 2.1l4.33 4.35a5.6 5.6 0 0 0 7.65.13l2.6-2.43a1.38 1.38 0 0 0-1.88-2.02l-2.6 2.43a2.85 2.85 0 0 1-3.87-.07L4.15 16.8a2.6 2.6 0 0 1-.63-1.05 2.8 2.8 0 0 1-.03-1.53c.12-.38.34-.75.62-1.06l3.74-4 6.2-6.66A1.38 1.38 0 0 0 13.48 0zm-2.87 13.73a1.38 1.38 0 1 0 0 2.75h10.2a1.38 1.38 0 1 0 0-2.75z"/></svg></a>
+            <a href="https://codeforces.com/profile/anunaysharma12" target="_blank" rel="noopener" aria-label="Codeforces" title="Codeforces"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 7.5A1.5 1.5 0 0 1 6 9v10.5A1.5 1.5 0 0 1 4.5 21h-3A1.5 1.5 0 0 1 0 19.5V9a1.5 1.5 0 0 1 1.5-1.5h3zm9-4.5A1.5 1.5 0 0 1 15 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 19.5v-15A1.5 1.5 0 0 1 10.5 3h3zm9 7.5A1.5 1.5 0 0 1 24 12v7.5a1.5 1.5 0 0 1-1.5 1.5h-3a1.5 1.5 0 0 1-1.5-1.5V12a1.5 1.5 0 0 1 1.5-1.5h3z"/></svg></a>
+            <a href="https://www.hackerrank.com/profile/anunaysharma12" target="_blank" rel="noopener" aria-label="HackerRank" title="HackerRank"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 0c1.3 0 10.4 5.2 11 6.3.7 1.1.7 10.3 0 11.4-.6 1.1-9.7 6.3-11 6.3S1.6 18.8 1 17.7C.3 16.6.3 7.4 1 6.3 1.6 5.2 10.7 0 12 0zm2.3 5.4c-.1 0-.2.1-.2.2v4.8H9.9V7.3h.9c.2 0 .3-.2.2-.4L9.1 5.1c-.1-.1-.2-.1-.3 0L6.9 6.9c-.1.1-.1.4.2.4h.8v9.4c0 .1.1.2.2.2h1.6c.1 0 .2-.1.2-.2v-4.3h4.2v3.1h-.9c-.2 0-.3.2-.2.4l1.9 1.8c.1.1.2.1.3 0l1.9-1.8c.1-.2 0-.4-.2-.4h-.8V5.6c0-.1-.1-.2-.2-.2h-1.6z"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="stats">
+        <div><strong>1953</strong><span>LeetCode rating</span></div>
+        <div><strong>1,900+</strong><span>Problems solved</span></div>
+        <div><strong>107</strong><span>Contests</span></div>
+        <div><strong>Top 3.4%</strong><span>on LeetCode</span></div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <!-- CODING -->
+    <section id="coding" class="fade">
+      <span class="label">Coding</span>
+      <h2>Competitive programming</h2>
+      <p class="section-intro">Problem solving is what I enjoy most. I practise every day and compete regularly. Here are my numbers, pulled from my profiles.</p>
+
+      <div class="panel lc-panel" style="--c:#f59e0b">
+        <div class="panel-head">
+          <div>
+            <h3>LeetCode</h3>
+            <a class="handle" href="https://leetcode.com/u/anunaysharma12/" target="_blank" rel="noopener">@anunaysharma12 ↗</a>
+          </div>
+          <div class="rating">
+            <span class="badge">Knight · Top 3.43%</span>
+            <strong>1953</strong>
+            <span class="muted">contest rating</span>
+          </div>
+        </div>
+        <div class="lc-body">
+          <div class="ring-wrap">
+            <svg viewBox="0 0 120 120" class="ring" id="lcRing" aria-hidden="true"></svg>
+            <div class="ring-label"><strong>1,683</strong><span>solved</span></div>
+          </div>
+          <div class="diff">
+            <div class="diff-row easy"><span>Easy</span><div class="bar"><i style="--w:58.4%"></i></div><b>571<small> / 978</small></b></div>
+            <div class="diff-row med"><span>Medium</span><div class="bar"><i style="--w:43.8%"></i></div><b>943<small> / 2152</small></b></div>
+            <div class="diff-row hard"><span>Hard</span><div class="bar"><i style="--w:17%"></i></div><b>169<small> / 993</small></b></div>
+            <div class="mini">
+              <div><strong>107</strong><span>contests</span></div>
+              <div><strong>1000</strong><span>day badge</span></div>
+              <div><strong>C++</strong><span>main language</span></div>
+            </div>
+          </div>
+          <div class="topics">
+            <h4>Most-solved topics</h4>
+            <ul id="topicBars"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="cp-grid">
+        <div class="panel" style="--c:#3b82f6">
+          <div class="panel-head">
+            <div>
+              <h3>Codeforces</h3>
+              <a class="handle" href="https://codeforces.com/profile/anunaysharma12" target="_blank" rel="noopener">@anunaysharma12 ↗</a>
+            </div>
+            <div class="rating">
+              <span class="badge" id="cfRank">Pupil</span>
+              <strong id="cfRating">1261</strong>
+              <span class="muted">max rating</span>
+            </div>
+          </div>
+          <div class="chart-wrap">
+            <svg id="ratingChart" viewBox="0 0 560 230" role="img" aria-label="Codeforces rating history"></svg>
+            <div class="tooltip" id="chartTip" hidden></div>
+          </div>
+          <div class="mini">
+            <div><strong id="cfContests">5</strong><span>rated contests</span></div>
+            <div><strong>112</strong><span>problems solved</span></div>
+            <div><strong>+1261</strong><span>rating gained</span></div>
+          </div>
+        </div>
+
+        <div class="panel" style="--c:#10b981">
+          <div class="panel-head">
+            <div>
+              <h3>HackerRank</h3>
+              <a class="handle" href="https://www.hackerrank.com/profile/anunaysharma12" target="_blank" rel="noopener">@anunaysharma12 ↗</a>
+            </div>
+          </div>
+          <ul class="hr-badges">
+            <li><span>Problem Solving</span><span class="stars" data-stars="6" data-max="6"></span><small>131 solved</small></li>
+            <li><span>C++</span><span class="stars" data-stars="5" data-max="5"></span><small>21 solved</small></li>
+            <li><span>C</span><span class="stars" data-stars="4" data-max="5"></span><small>18 solved</small></li>
+            <li><span>Python</span><span class="stars" data-stars="1" data-max="5"></span><small>5 solved</small></li>
+          </ul>
+          <div class="cert">
+            <span class="cert-icon">✓</span>
+            <div><strong>Problem Solving (Basic)</strong><span>Certified · score 100%</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="fade">
+      <span class="label">About me</span>
+      <h2>A bit about me</h2>
+      <div class="about">
+        <div>
+          <p>
+            I'm a Master's student in Computer Science at IIT Delhi. I enjoy algorithms, clean code and building
+            things end to end, from systems programming in C to web apps, mobile apps and machine learning projects.
+          </p>
+          <p>
+            Problem solving is a daily habit for me. I've solved over 1,680 problems on LeetCode, earned the
+            1000-day badge and reached the Knight rank through 107 contests. I also compete on Codeforces and HackerRank.
+          </p>
+          <p>
+            I enjoy writing clean, efficient code and I'm always up for a challenging problem, whether it's in a
+            contest or in a project.
+          </p>
+        </div>
+        <div class="edu">
+          <span class="edu-icon">🎓</span>
+          <div>
+            <strong>M.Tech, Computer Science</strong>
+            <span>Indian Institute of Technology, Delhi</span>
+            <span class="muted">2025 – Present</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="fade">
+      <span class="label">Projects</span>
+      <h2>Things I've built</h2>
+      <div class="grid grid-3">
+        <article class="card">
+          <div class="card-head"><span class="icon" style="--c:#475569">⚙️</span></div>
+          <h3>Cornerstone Systems Project</h3>
+          <p>A systems programming project written in C for the COD7001 Cornerstone course at IIT Delhi.</p>
+          <ul class="tags"><li>C</li><li>Make</li><li>Systems</li></ul>
+          <a class="more" href="https://github.com/anunay1206/COD7001-Assignment2" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="icon" style="--c:#7c3aed">📊</span></div>
+          <h3>Interactive Data Visualisations</h3>
+          <p>A set of interactive charts and dashboards built with Vega-Lite for a data visualisation course at IIT Delhi.</p>
+          <ul class="tags"><li>HTML</li><li>Vega-Lite</li><li>Data</li></ul>
+          <a class="more" href="https://anunay1206.github.io/A3_ELL8224_2025MCS2095_AnunaySharma/" target="_blank" rel="noopener">Live demo →</a>
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="icon" style="--c:#2563eb">📱</span></div>
+          <h3>FinWell &amp; E-commerce App</h3>
+          <p>Two cross-platform mobile apps built with Flutter: a personal finance app and a shopping app.</p>
+          <ul class="tags"><li>Dart</li><li>Flutter</li><li>Mobile</li></ul>
+          <div class="more-links">
+            <a class="more" href="https://github.com/anunay1206/finwell" target="_blank" rel="noopener">FinWell →</a>
+            <a class="more" href="https://github.com/anunay1206/ecommerce_app" target="_blank" rel="noopener">E-commerce →</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="icon" style="--c:#16a34a">🧠</span></div>
+          <h3>Tree Species Mapping</h3>
+          <p>A deep-learning tool that identifies tree species from aerial images and exports map files, served as a small web app with Docker.</p>
+          <ul class="tags"><li>Python</li><li>PyTorch</li><li>FastAPI</li><li>Docker</li></ul>
+          <a class="more" href="https://github.com/anunay1206/drone_docker" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="icon" style="--c:#ca8a04">🌐</span></div>
+          <h3>Translator</h3>
+          <p>A simple browser-based language translator app with a clean, responsive interface.</p>
+          <ul class="tags"><li>JavaScript</li><li>HTML</li><li>CSS</li></ul>
+          <a class="more" href="https://github.com/anunay1206/Translator" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="icon" style="--c:#db2777">🎨</span></div>
+          <h3>OSL Theme Task</h3>
+          <p>A website theme built with PHP and Twig templates, styled with SCSS.</p>
+          <ul class="tags"><li>PHP</li><li>Twig</li><li>SCSS</li></ul>
+          <a class="more" href="https://github.com/anunay1206/OSL-Theme-Task" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="fade">
+      <span class="label">Skills</span>
+      <h2>What I work with</h2>
+      <div class="skills">
+        <div class="skill-row"><h3>Languages</h3><ul class="tags"><li>C++</li><li>Python</li><li>C</li><li>JavaScript</li><li>Dart</li><li>PHP</li><li>HTML/CSS</li></ul></div>
+        <div class="skill-row"><h3>Machine learning</h3><ul class="tags"><li>PyTorch</li><li>Computer vision</li><li>Data visualisation</li></ul></div>
+        <div class="skill-row"><h3>Tools</h3><ul class="tags"><li>Git</li><li>Docker</li><li>Linux</li><li>FastAPI</li></ul></div>
+        <div class="skill-row"><h3>Apps</h3><ul class="tags"><li>Flutter</li><li>REST APIs</li></ul></div>
+        <div class="skill-row"><h3>Problem solving</h3><ul class="tags"><li>Dynamic programming</li><li>Graphs</li><li>Greedy</li><li>Binary search</li><li>Trees</li></ul></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="fade">
+      <div class="contact-box">
+        <h2>Get in touch</h2>
+        <p>Want to talk about code, contests or projects? The best way to reach me is LinkedIn. You can also view my resume.</p>
+        <ul class="links">
+          <li><a class="btn btn-white" href="https://www.linkedin.com/in/anunay-sharma-627849223/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a class="btn btn-white" href="https://drive.google.com/file/d/1vStSmagrxq0nKR9PZLochvoqY8Ws814J/view?usp=drive_link" target="_blank" rel="noopener">Resume</a></li>
+          <li><a href="https://github.com/anunay1206" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://leetcode.com/u/anunaysharma12/" target="_blank" rel="noopener">LeetCode</a></li>
+          <li><a href="https://codeforces.com/profile/anunaysharma12" target="_blank" rel="noopener">Codeforces</a></li>
+          <li><a href="https://www.hackerrank.com/profile/anunaysharma12" target="_blank" rel="noopener">HackerRank</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <span>© <span id="year">2026</span> Anunay Sharma</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
